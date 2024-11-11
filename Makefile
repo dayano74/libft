@@ -51,7 +51,7 @@ BONUS_FLAG = .bonus_done
 
 all:	$(NAME)
 
-$(NAME): $(OBJS) $(B_OBJS)
+$(NAME): $(OBJS)
 	$(AR) $@ $^
 
 bonus:$(BONUS_FLAG)
