@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 20:28:50 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/08 10:40:00 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/12 13:23:50 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,6 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 		result[i] = f(i, s[i]);
 		i++;
 	}
-	result[i] = '\0';
 	return (result);
 }
 

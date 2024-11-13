@@ -1,17 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstclear.c                                      :+:      :+:    :+:   */
+/*   ft_lstclear_bonus.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 16:25:22 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/11 15:12:47 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/12 13:27:42 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include "libft_bonus.h"
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
@@ -26,7 +25,6 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 		free(*lst);
 		*lst = temp;
 	}
-	*lst = NULL;
 }
 
 // #include <stdio.h>
@@ -57,13 +55,16 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 // 	t_list	*head;
 // 	t_list	*new1;
 // 	t_list	*new2;
-// 	int		val1;
-// 	int		val2;
-// 	int		val3;
+// 	int		*val1;
+// 	int		*val2;
+// 	int		*val3;
 
-// 	val1 = 1;
-// 	val2 = 2;
-// 	val3 = 3;
+// 	val1 = malloc(sizeof(int));
+// 	val2 = malloc(sizeof(int));
+// 	val3 = malloc(sizeof(int));
+// 	*val1 = 1;
+// 	*val2 = 2;
+// 	*val3 = 3;
 // 	head = ft_lstnew(&val1);
 // 	new1 = ft_lstnew(&val2);
 // 	new2 = ft_lstnew(&val3);

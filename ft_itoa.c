@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 16:04:27 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/07 16:55:13 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/11 20:53:50 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,9 @@ static int	get_num_len(int n)
 
 char	*ft_itoa(int n)
 {
-	char	*result;
-	int		len;
-	long	n_cpy;
+	char		*result;
+	int			len;
+	long long	n_cpy;
 
 	len = get_num_len(n);
 	result = (char *)malloc(sizeof(char) * (len + 1));

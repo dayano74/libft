@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 19:54:06 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/07 20:16:43 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/12 13:24:28 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		dest_ptr[i] = src_ptr[i];
 		i++;
 	}
-	return (dest_ptr);
+	return (dest);
 }
 
 // #include <stdio.h>
