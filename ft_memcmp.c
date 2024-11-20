@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 19:25:19 by dayano            #+#    #+#             */
-/*   Updated: 2024/10/26 20:54:02 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/13 16:52:33 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,6 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 		s2_ptr++;
 		n--;
 	}
-	if (n == 0)
-		return (0);
 	return (*s1_ptr - *s2_ptr);
 }
 

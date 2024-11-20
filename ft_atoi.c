@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 13:03:48 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/08 18:08:44 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/13 16:56:37 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,9 @@ static int	get_sign(const char *nptr, int *i)
 
 int	ft_atoi(const char *nptr)
 {
-	long	result;
-	int		sign;
-	int		i;
+	long long	result;
+	int			sign;
+	int			i;
 
 	i = 0;
 	while (nptr[i] == ' ' || (nptr[i] >= '\t' && nptr[i] <= '\r'))
