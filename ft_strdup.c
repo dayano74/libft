@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 18:21:23 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/21 18:31:40 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/21 20:28:16 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,19 +14,17 @@
 
 char	*ft_strdup(const char *s)
 {
-	char	*str;
-	char	*str_copy;
-	int		word_count;
+	char	*dup;
+	char	*ptr;
 
-	word_count = ft_strlen(s);
-	str = ft_calloc(sizeof(char), word_count + 1);
-	if (str == NULL)
+	dup = malloc(sizeof(char) * ft_strlen(s) + 1);
+	if (dup == NULL)
 		return (NULL);
-	str_copy = str;
+	ptr = dup;
 	while (*s)
-		*str_copy++ = *s++;
-	*str_copy = '\0';
-	return (str);
+		*ptr++ = *s++;
+	*ptr = '\0';
+	return (dup);
 }
 
 // #include <stdio.h>
