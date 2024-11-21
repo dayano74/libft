@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 16:04:27 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/14 21:00:48 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/21 18:28:52 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,26 +57,26 @@ char	*ft_itoa(int n)
 	return (result);
 }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int	main(void)
-{
-	char	*result;
+// int	main(void)
+// {
+// 	char	*result;
 
-	result = ft_itoa(123);
-	printf("result: %s\n", result);
-	free(result);
-	result = ft_itoa(-123);
-	printf("result: %s\n", result);
-	free(result);
-	result = ft_itoa(0);
-	printf("result: %s\n", result);
-	free(result);
-	result = ft_itoa(INT_MAX);
-	printf("result: %s\n", result);
-	free(result);
-	result = ft_itoa(INT_MIN);
-	printf("result: %s\n", result);
-	free(result);
-	return (0);
-}
+// 	result = ft_itoa(123);
+// 	printf("result: %s\n", result);
+// 	free(result);
+// 	result = ft_itoa(-123);
+// 	printf("result: %s\n", result);
+// 	free(result);
+// 	result = ft_itoa(0);
+// 	printf("result: %s\n", result);
+// 	free(result);
+// 	result = ft_itoa(INT_MAX);
+// 	printf("result: %s\n", result);
+// 	free(result);
+// 	result = ft_itoa(INT_MIN);
+// 	printf("result: %s\n", result);
+// 	free(result);
+// 	return (0);
+// }

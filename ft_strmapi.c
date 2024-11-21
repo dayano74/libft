@@ -6,19 +6,13 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 20:28:50 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/12 13:23:50 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/21 18:32:19 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// static char	function(unsigned int index, char c)
-// {
-// 	if (index % 2 == 0)
-// 		return (ft_toupper(c));
-// 	else
-// 		return (ft_tolower(c));
-// }
+// static char	function(unsigned int index, char c);
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
@@ -38,6 +32,13 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	}
 	return (result);
 }
+// static char	function(unsigned int index, char c)
+// {
+// 	if (index % 2 == 0)
+// 		return (ft_toupper(c));
+// 	else
+// 		return (ft_tolower(c));
+// }
 
 // #include <stdio.h>
 

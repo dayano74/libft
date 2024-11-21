@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 18:21:23 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/10 20:57:33 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/21 18:31:40 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,6 +62,3 @@ char	*ft_strdup(const char *s)
 // 	printf("ft_ (multiple nulls):%s\n", dup_ft);
 // 	free(dup_ft);
 // }
-
-// strdupの引数にNULLを渡すと、segmentation faultとなる
-// ft_strdupにおいても引数にNULLを渡すと、ft_strlenがNULLポインタに干渉しsegmentation faultとなる

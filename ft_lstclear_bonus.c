@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 16:25:22 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/12 13:27:42 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/21 18:29:29 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,7 +70,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 // 	new2 = ft_lstnew(&val3);
 // 	ft_lstadd_front(&head, new1);
 // 	ft_lstadd_front(&head, new2);
-// 	print_list(head); // 期待出力: 3 -> 2 -> 1 -> NULL
+// 	print_list(head);
 // 	ft_lstclear(&head, del_content);
 // 	print_list(head);
 // }

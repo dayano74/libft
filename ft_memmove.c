@@ -6,35 +6,11 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 14:16:43 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/07 20:28:09 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/21 18:31:00 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-// void	*ft_memmove(void *dest, const void *src, size_t n)
-// {
-// 	unsigned char	*src_ptr;
-// 	unsigned char	*dest_ptr;
-
-// 	src_ptr = (unsigned char *)src;
-// 	dest_ptr = (unsigned char *)dest;
-// 	if (src == NULL)
-// 		return (NULL);
-// 	if (src_ptr < dest_ptr && src_ptr + n > dest_ptr)
-// 	{
-// 		src_ptr += n;
-// 		dest_ptr += n;
-// 		while (n--)
-// 			*--dest_ptr = *--src_ptr;
-// 	}
-// 	else
-// 	{
-// 		while (n--)
-// 			*dest_ptr++ = *src_ptr++;
-// 	}
-// 	return (dest);
-// }
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {

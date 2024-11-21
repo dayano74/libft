@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 15:59:53 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/12 13:28:10 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/21 18:29:16 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,8 +50,7 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 // 	new2 = ft_lstnew(&val3);
 // 	ft_lstadd_front(&head, new1);
 // 	ft_lstadd_front(&head, new2);
-// 	print_list(head); // 期待出力: 3 -> 2 -> 1 -> NULL
-// 	// メモリ解放
+// 	print_list(head);
 // 	while (head)
 // 	{
 // 		temp = head;

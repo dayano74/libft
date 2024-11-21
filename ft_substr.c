@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 20:18:41 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/07 17:08:31 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/21 18:33:03 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,13 +57,13 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 
 // 	s = "Hello, World!";
 // 	printf("%s\n", ft_substr(s, 7, 5));
-// 	printf("%s\n", ft_substr("Hello, World!", 20, 5)); // if start >= s_len
+// 	printf("%s\n", ft_substr("Hello, World!", 20, 5));
 // 	printf("%s\n", ft_substr("Hello, World!", 13, 5));
 // 	printf("%s\n", ft_substr("Hello, World!", 7, 0));
 // 	printf("%s\n", ft_substr("Hello, World!", 0, 5));
 // 	printf("%s\n", ft_substr("Hello, World!", 7, 50));
 // 	printf("%s\n", ft_substr("", 0, 5));
-// 	printf("%p\n", ft_substr(NULL, 0, 5));             // 出力: (nil) または NULL
-// 	printf("%s\n", ft_substr("Hello, World!", 0, 50)); // 出力: "Hello, World!"
-// 	printf("%s\n", ft_substr("Hello, World!", 7, 6));  // 出力: "World!"
+// 	printf("%p\n", ft_substr(NULL, 0, 5));
+// 	printf("%s\n", ft_substr("Hello, World!", 0, 50));
+// 	printf("%s\n", ft_substr("Hello, World!", 7, 6));
 // }

@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 19:54:38 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/11 22:00:58 by dayano           ###   ########.fr       */
+/*   Updated: 2024/11/21 18:30:37 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,14 +51,11 @@ int	ft_lstsize(t_list *lst)
 // 	head->next = create_node(2);
 // 	head->next->next = create_node(3);
 // 	head->next->next->next = create_node(4);
-// 	// リストのサイズを計算
 // 	size = ft_lstsize(head);
-// 	printf("List size (4 elements): %d\n", size); // 期待される出力：4
-// 	// 空のリストをテスト
+// 	printf("List size (4 elements): %d\n", size);
 // 	empty_list = NULL;
 // 	empty_size = ft_lstsize(empty_list);
-// 	printf("List size (empty): %d\n", empty_size); // 期待される出力：0
-// 	// メモリ解放
+// 	printf("List size (empty): %d\n", empty_size);
 // 	while (head != NULL)
 // 	{
 // 		temp = head;
