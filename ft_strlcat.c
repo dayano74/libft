@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 18:23:04 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/11 21:14:34 by dayano           ###   ########.fr       */
+/*   Updated: 2024/12/05 17:29:14 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,19 +35,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 		dst[dst_length + i] = '\0';
 	return (src_length + dst_length);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char		dst[20] = "Hello,";
-// 	const char	src[] = "World!";
-
-// 	ft_strlcat(dst, src, 14);
-// 	printf("dst:%s\n", dst);
-// 	ft_strlcat(dst, (void *)0, 14);
-// 	printf("dst:%s\n", dst);
-// }
-
-// Under standard usage,
-// passing a NULL pointer to src is not typical or intended.

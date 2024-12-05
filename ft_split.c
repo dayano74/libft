@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 21:35:03 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/05 16:12:00 by dayano           ###   ########.fr       */
+/*   Updated: 2024/12/05 17:28:23 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,31 +88,3 @@ char	**ft_split(const char *s, char c)
 	result[i] = NULL;
 	return (result);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char	*s;
-// 	char	c;
-// 	char	**result;
-// 	int		i;
-
-// 	s = "aaa/bbb/ccc";
-// 	c = '/';
-// 	i = 0;
-// 	result = ft_split(s, c);
-// 	if (!result)
-// 	{
-// 		printf("ft_split returned NULL\n");
-// 		return (1);
-// 	}
-// 	while (result[i])
-// 	{
-// 		printf("%s\n", result[i]);
-// 		free(result[i]);
-// 		i++;
-// 	}
-// 	free(result);
-// 	return (0);
-// }

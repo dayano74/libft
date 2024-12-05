@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 20:35:12 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/21 18:30:04 by dayano           ###   ########.fr       */
+/*   Updated: 2024/12/05 17:26:51 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,46 +22,3 @@ t_list	*ft_lstlast(t_list *lst)
 	}
 	return (lst);
 }
-
-// static t_list	*create_node(int value)
-// {
-// 	t_list	*node;
-
-// 	node = (t_list *)malloc(sizeof(t_list));
-// 	if (!node)
-// 		return (NULL);
-// 	node->content = (void *)(size_t)value;
-// 	node->next = NULL;
-// 	return (node);
-// }
-
-// int	main(void)
-// {
-// 	t_list	*head;
-// 	t_list	*last_node;
-// 	t_list	*empty_list;
-// 	t_list	*empty_last_node;
-// 	t_list	*temp;
-
-// 	head = create_node(1);
-// 	head->next = create_node(2);
-// 	head->next->next = create_node(3);
-// 	head->next->next->next = create_node(4);
-// 	last_node = ft_lstlast(head);
-// 	if (last_node != NULL)
-// 		printf("Last node content (expected 4): %d\n",
-// 			(int)(size_t)last_node->content);
-// 	else
-// 		printf("List is empty.\n");
-// 	empty_list = NULL;
-// 	empty_last_node = ft_lstlast(empty_list);
-// 	if (empty_last_node == NULL)
-// 		printf("Last node in empty list: NULL\n");
-// 	while (head != NULL)
-// 	{
-// 		temp = head;
-// 		head = head->next;
-// 		free(temp);
-// 	}
-// 	return (0);
-// }

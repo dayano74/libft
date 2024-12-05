@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/27 17:29:06 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/02 20:22:26 by dayano           ###   ########.fr       */
+/*   Updated: 2024/12/05 17:29:47 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,35 +35,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-
-// int	main(void)
-// {
-// 	const char	*largestring = "Foo Bar Baz";
-// 	const char	*smallstring = "Bar";
-// 	char		*result;
-
-// 	printf("Test case:found\n");
-// 	result = ft_strnstr(largestring, smallstring, 9);
-// 	if (result != NULL)
-// 		printf("ft_strnstr:%s\n", result);
-// 	else
-// 		printf("not found smallstring in largestring\n");
-// 	//
-// 	printf("\nTest case:not found\n");
-// 	result = ft_strnstr(largestring, smallstring, 4);
-// 	if (result != NULL)
-// 		printf("ft_strnstr:%s\n", result);
-// 	else
-// 		printf("not found smallstring in largestring\n");
-// 	//
-// 	printf("\nTest case: little partially matches\n");
-// 	smallstring = "Baz";
-// 	result = ft_strnstr(largestring, smallstring, 8);
-// 	if (result != NULL)
-// 		printf("ft_strnstr: %s\n", result);
-// 	else
-// 		printf("not found smallstring in largestring\n");
-// }

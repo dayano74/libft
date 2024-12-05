@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 18:09:21 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/03 17:20:25 by dayano           ###   ########.fr       */
+/*   Updated: 2024/12/05 17:29:51 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,29 +29,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char	*s;
-// 	int		c;
-// 	char	*result;
-
-// 	s = "Hello, World!";
-// 	c = 'o';
-// 	printf("org:%s\n", s);
-// 	result = ft_strrchr(s, c);
-// 	if (result != NULL)
-// 		printf("after ft_strchr:%s\n", result);
-// 	else
-// 		printf("character not found\n");
-// 	s = "Hello, World!";
-// 	c = '\0';
-// 	result = ft_strrchr(s, c);
-// 	if (result != NULL)
-// 		printf("after ft_strchr:%s\n", result);
-// 	else
-// 		printf("character not found\n");
-// 	return (0);
-// }

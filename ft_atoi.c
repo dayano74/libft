@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 13:03:48 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/13 16:56:37 by dayano           ###   ########.fr       */
+/*   Updated: 2024/12/05 17:25:10 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,54 +50,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return ((int)(sign * result));
 }
-
-// #include <stdio.h>
-// #include <stdlib.h>
-
-// int	main(void)
-// {
-// 	printf("Test case:123\n");
-// 	printf("org:%d\n", atoi("123"));
-// 	printf("ft_:%d\n", ft_atoi("123"));
-// 	//
-// 	printf("\nTest case:-456\n");
-// 	printf("org:%d\n", atoi("-456"));
-// 	printf("ft_:%d\n", ft_atoi("-456"));
-// 	//
-// 	printf("\nTest case:INT_MAX 2147483647\n");
-// 	printf("org:%d\n", atoi("2147483647"));
-// 	printf("ft_:%d\n", ft_atoi("2147483647"));
-// 	//
-// 	printf("\nTest case:INT_MAX -2147483648\n");
-// 	printf("org:%d\n", atoi("-2147483648"));
-// 	printf("ft_:%d\n", ft_atoi("-2147483648"));
-// 	//
-// 	printf("\nTest case:21474836480\n");
-// 	printf("org:%d\n", atoi("21474836480"));
-// 	printf("ft_:%d\n", ft_atoi("21474836480"));
-// 	//
-// 	printf("\nTest case:21474836489\n");
-// 	printf("org:%d\n", atoi("21474836489"));
-// 	printf("ft_:%d\n", ft_atoi("21474836489"));
-// 	//
-// 	printf("\nTest case:9223372036854775808\n");
-// 	printf("org:%d\n", atoi("9223372036854775808"));
-// 	printf("ft_:%d\n", ft_atoi("9223372036854775808"));
-// 	//
-// 	printf("\nTest case:dpagn   	\n789\n");
-// 	printf("org:%d\n", atoi("dpagn   	\n789"));
-// 	printf("ft_:%d\n", ft_atoi("dpagn   	\n789"));
-// 	//
-// 	printf("\nTest case:    789\n");
-// 	printf("org:%d\n", atoi("    789"));
-// 	printf("ft_:%d\n", ft_atoi("    789"));
-// 	//
-// 	printf("\nTest case:+789\n");
-// 	printf("org:%d\n", atoi("+789"));
-// 	printf("ft_:%d\n", ft_atoi("+789"));
-// 	//
-// 	printf("\nTest case:+\n");
-// 	printf("org:%d\n", atoi("+"));
-// 	printf("ft_:%d\n", ft_atoi("+"));
-// 	return (0);
-// }

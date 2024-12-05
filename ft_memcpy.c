@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 19:54:06 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/12 13:24:28 by dayano           ###   ########.fr       */
+/*   Updated: 2024/12/05 17:27:47 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,19 +32,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-
-// int	main(void)
-// {
-// 	char	dest[14];
-// 	char	*src;
-// 	int		n;
-
-// 	n = 14;
-// 	src = NULL;
-// 	printf("before:%s\n", dest);
-// 	memcpy(dest, src, n);
-// 	printf("after:%s\n", dest);
-// }

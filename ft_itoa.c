@@ -6,12 +6,11 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 16:04:27 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/21 18:28:52 by dayano           ###   ########.fr       */
+/*   Updated: 2024/12/05 17:26:07 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <limits.h>
 
 static int	get_num_len(int n)
 {

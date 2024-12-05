@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 20:28:50 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/21 18:32:19 by dayano           ###   ########.fr       */
+/*   Updated: 2024/12/05 17:29:35 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,32 +32,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	}
 	return (result);
 }
-// static char	function(unsigned int index, char c)
-// {
-// 	if (index % 2 == 0)
-// 		return (ft_toupper(c));
-// 	else
-// 		return (ft_tolower(c));
-// }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char	*original;
-// 	char	*modified;
-
-// 	original = "HeLLo WoRLd!";
-// 	modified = ft_strmapi(original, function);
-// 	if (modified)
-// 	{
-// 		printf("org: %s\n", original);
-// 		printf("ft_: %s\n", modified);
-// 		free(modified);
-// 	}
-// 	else
-// 	{
-// 		printf("Memory allocation failed.\n");
-// 	}
-// 	return (0);
-// }

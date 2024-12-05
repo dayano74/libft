@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 20:18:41 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/21 21:03:07 by dayano           ###   ########.fr       */
+/*   Updated: 2024/12/05 17:30:02 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,22 +37,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[i] = '\0';
 	return (str);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char const	*s;
-
-// 	s = "Hello, World!";
-// 	printf("%s\n", ft_substr(s, 7, 5));
-// 	printf("%s\n", ft_substr("Hello, World!", 20, 5));
-// 	printf("%s\n", ft_substr("Hello, World!", 13, 5));
-// 	printf("%s\n", ft_substr("Hello, World!", 7, 0));
-// 	printf("%s\n", ft_substr("Hello, World!", 0, 5));
-// 	printf("%s\n", ft_substr("Hello, World!", 7, 50));
-// 	printf("%s\n", ft_substr("", 0, 5));
-// 	printf("%p\n", ft_substr(NULL, 0, 5));
-// 	printf("%s\n", ft_substr("Hello, World!", 0, 50));
-// 	printf("%s\n", ft_substr("Hello, World!", 7, 6));
-// }

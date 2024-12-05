@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 17:15:54 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/03 21:34:36 by dayano           ###   ########.fr       */
+/*   Updated: 2024/12/05 17:29:56 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,26 +30,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(result, s1 + start, end - start + 2);
 	return (result);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char const	*s1;
-// 	char const	*set;
-
-// 	s1 = "aaa/bbb?ccc!";
-// 	set = "a/c!";
-// 	printf("s1:%s set:%s\nft_strtrim(s1, set)->%s\n", s1, set, ft_strtrim(s1,
-// 			set));
-// 	printf("\n");
-// 	printf("s1:%s set:%s\nft_strtrim(s1, set)->%s\n", "", "", ft_strtrim("",
-// 			""));
-// 	printf("\n");
-// 	printf("s1:%s set:%s\nft_strtrim(s1, set)->%s\n", s1, "", ft_strtrim(s1,
-// 			""));
-// 	printf("\n");
-// 	printf("s1:%s set:%s\nft_strtrim(s1, set)->%s\n", "", set, ft_strtrim("",
-// 			""));
-// 	printf("\n");
-// }

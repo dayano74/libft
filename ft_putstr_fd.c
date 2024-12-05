@@ -6,7 +6,7 @@
 /*   By: dayano <dayano@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 15:32:12 by dayano            #+#    #+#             */
-/*   Updated: 2024/11/07 16:21:56 by dayano           ###   ########.fr       */
+/*   Updated: 2024/12/05 17:28:16 by dayano           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,3 @@ void	ft_putstr_fd(char *s, int fd)
 	while (*s)
 		ft_putchar_fd(*s++, fd);
 }
-
-// int	main(void)
-// {
-// 	char	s[] = "Hello, World!";
-
-// 	ft_putstr_fd(s, 1);
-// }
